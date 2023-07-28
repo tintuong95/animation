@@ -1,0 +1,9 @@
+# Loại trừ tất cả các tệp .js và .css trong thư mục build/
+dist/*.js
+dist/*.css
+
+# Loại trừ tệp bundle.js trong thư mục dist/
+dist/bundle.js
+
+# Loại trừ tất cả các tệp .min.js trong dự án
+*.min.js
